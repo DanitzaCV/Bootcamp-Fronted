@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Elliot Garamendi</title>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <a href="#">
+        <img src="./img/DSCN1182.JPG" alt="Logo Elliot Garamendi" width="64px" />
+      </a>
+      <ul>
+        <li><a href="#">Perfil</a></li>
+        <li><a href="#">Experiencia</a></li>
+        <li><a href="#">Habilidades</a></li>
+        <li><a href="#">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- <article class="profile">
+      <h1>Elliot Garamendi. Desarrollador de tus sueños.</h1>
+      <p>
+        Estudiante de Ingeniería de Software perteneciente a los primeros puestos. Apasionado del autoaprendizaje con
+        el sueño de crecer en el Desarrollo Web Frontend con la biblioteca React. Asimismo, amo compartir los
+        conocimientos adquiridos día a día mediante la docencia.
+      </p>
+      <div>
+        <button>CV</button>
+        <button>Portafolio</button>
+      </div>
+      <div>
+        <img src="./img/DSCN1182.JPG" alt="Elliot Garamendi" width="320px">
+      </div>
+    </article> -->
+<form action ="/">
+  <label for="nombre">Nombre</label>
+  <input type="text" id="nombre" placeholder="Nombre" name="nombre" required/>
+  <hr />
+  <label for="apellido">Apellido</label>
+  <!-- <input type="text" id="apellido" placeholder="Apelido" pattern="[A-Za-z]" required/> -->
+  <input type="text" id="apellido" placeholder="Apelido" name="apellido" required/>
+  <hr />
+  <label for="email">Correo</label>
+  <input type="email" id="email" placeholder="Correo" name="email" /> 
+  <hr />
+  <label for="celular">Celular</label>
+  <input type="number" id="celular" placeholder="Celular" min="900000000" max="999999999" name="celular"required/> 
+  <hr />
+  <label for="fechaNacimiento">Fecha de nacimiento</label>
+  <input type="date" id="fechaNacimiento" placeholder="fecha de Nacimiento" name="fechaNacimiento" /> 
+  <hr />
+  <!-- El radio : mismo name -->
+  <input type="radio" name="sexo" id="femenino" value="femenino"  /> 
+  <label for="femenino">Femenino</label>
+  <input type="radio" name="sexo" id="masculino" value="masculino"  /> 
+  <label for="masculino">Masculino</label>
+  <input type="radio" name="sexo" id="otros" value="otros"  /> 
+  <label for="otros">Prefiero no especificar</label>
+  <hr />
+  <label for="grado">Grado de Instrucción</label>
+  <select name="grado" id="grado">
+    <option value="inicial">Inicial</option> 
+    <option value="primaria">Primaria</option>
+    <option value="secundaria">Secundaria</option>
+    <option value="tecnica">Tecnica</option>
+    <option value="universitaria">Universitaria</option>
+    <option value="magister">Magister</option>
+    <option value="doctorado">Doctorado</option>
+  </select>
+  <hr />
+  <label for="color">Color Preferido</label>
+  <input type="color" id="color" name="color" />
+  <hr />
+<!-- checkbox: mismo name -->
+  <label for="lengProg">Lenguaje de Programación</label><br>
+
+  <input type="checkbox" id="lenguaje" name="lenuaje1" value="C#">
+  <label for="lenguaje1"> c#</label><br>
+
+  <input type="checkbox" id="lenguaje" name="lenguaje2" value="java">
+  <label for="lenguaje2"> Java</label><br>
+
+  <input type="checkbox" id="lenguaje" name="lenguaje3" value="c++">
+  <label for="lengguaje3"> C++</label><br>
+
+  <input type="checkbox" id="lenguaje" name="lenguaje4" value="phyton">
+  <label for="lengguaje4">Phyton</label><br>
+
+  <input type="checkbox" id="lenguaje" name="lenguaje5" value="Ruby">
+  <label for="lengguaje5">Ruby</label><br>
+
+  <label for="photo">Suba una foto de perfil</label> <br>
+   <input type="file" id="photo" name="photo"/> 
+   <hr />
+
+  <label for="usuario">Usuario</label>
+  <input type="text" id="usuario" placeholder="Usuario" minlength="8" name="usuario" />
+  <hr />
+  <label for="clave">Contraseña</label>
+  <input type="password"id="clave" placeholder="Contraseña" maxlength="32" name="clave"/>
+  <hr />
+
+  <input type="submit" value="Registrar" />
+  <input type="reset" value="Limpiar" />
+  <!-- <button>Iniciar Sesión</button> -->
+</form>
+<section>
+  <table>
+    <tr>
+      <td>id</td>
+      <td>Nombre</td>
+      <td>Apellido</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Febe</td>
+      <td>chacon</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Nayeli</td>
+      <td>Yanqui</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Danitza</td>
+      <td>Chino</td>
+    </tr>
+  </table>
+
+</section>
+
+  </main>
+
+ <footer>
+
+ </footer>
+
+</body>
+
+</html>
